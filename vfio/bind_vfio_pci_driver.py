@@ -22,7 +22,7 @@ MODULES = "/sys/module/"
 ALIAS_FILE = "modules.alias"
 DEVICES = "/sys/devices/"
 DRIVERS = "/sys/bus/pci/drivers/"
-DRIVER_OVERRIDE_ALIAS_PREFIX = "driver_override_pci:"
+DRIVER_OVERRIDE_ALIAS_PREFIX = "vfio_pci:"
 PCI_ALIAS_PREFIX = "pci:"
 
 def print_and_log(line):
